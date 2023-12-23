@@ -87,3 +87,18 @@ body {
     margin-top: 10px;
     border-radius: 5px;
   }
+
+/* Existing styles */
+
+.about-section {
+  margin-top: 20px; /* Adjust the margin to create space between the box below the description section and the about section */
+  border: 2px solid black; /* Add border to the about section box */
+  padding: 20px; /* Add padding for better appearance */
+  text-align: left; /* Align text to the left */
+}
+
+.about-section h2 {
+  /* margin-bottom: ; Add margin to the bottom of the title */
+  margin-top: 0px;
+  font-size: 25px;
+}
