@@ -8,6 +8,17 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 
+<!-- <style>
+  :root {
+      --font-sans: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
+  }
+
+  body {
+      font-family: var(--font-sans);
+  }
+</style> -->
+
+
 <body>
 
   <div class="center-box">
@@ -22,7 +33,7 @@
         <a href="#">10. About</a>
         <a href="#">20. Projects</a>
         <a href="#">30. Technologies</a>
-        <a href="#">40. Resume</a>
+        <a href="#">40. Contact</a>
       </div>
     </div>
 
@@ -46,7 +57,7 @@
     <!-- about section -->
     <div class="about-section">
       <h2>10. About</h2>
-        <p>During my academic journey in India, I immersed myself in software development and coding, 
+        <p>During my academic journey in college, I immersed myself in software development and coding, 
           pursuing an Information Technology degree. Over the years, I delved into Data Structures, Algorithms, 
           and mastered various programming languages, gaining proficiency in software development tools.
           Currently, I focus on building diverse projects and engaging with the open-source community, 
@@ -58,31 +69,54 @@
           and find solace in meditation amidst the dynamic tech landscape.
         
         </p>
+
+        <hr class="section-divider">
+
       <!-- Education section -->
       <div class="about-subsection">
         <h3>12. Education</h3>
         
         <ul>
           <li>
-              <strong>Walchand College of Engineering, Sangli</strong>
-              <p>Pursuing B.Tech Degree in Information Technology</p>
-              <p>Current CGPA: 8.2</p>
+              <strong>Walchand College of Engineering, Sangli : </strong> Pursuing B.Tech Degree in Information Technology
           </li>
-      
+        </br>
           <li>
-              <strong>Jawahar Navodaya Vidyalaya Palus, Sangli</strong>
-              <p>Completed Secondary Education</p>
-              <p>Percentage: 94.00</p>
+              <strong>Jawahar Navodaya Vidyalaya Palus, Sangli : </strong> Secondary Education
           </li>
       </ul>
       
       </div>
 
+      <hr class="section-divider">
+
       <!-- Positions of Responsibility section -->
       <div class="about-subsection">
         <h3>13. Positions of Responsibility</h3>
-        <p>Content for the Positions of Responsibility section goes here...</p>
+        
+        <ul>
+          <li>
+            <strong>Club Service Director</strong> : <a href="https://www.linkedin.com/company/wcesait/">Student Association of Information Technology, Sangli</a>
+          <p>Successfully led and managed club services and events such as CloudVerse (AWS essentials, exploring EC2, S3, RDS, VPC, and Lambda) on the campus towards
+            sharing knowledge throughout community.</p>
+          </li>
+        </ul>
       </div>
+
+      <button id="resumeButton">Resume</button>
+      <script>
+        // Replace 'path/to/your/resume.pdf' with the actual path to your resume PDF
+        const resumePath = './files/Resume 2025.pdf';
+
+        // Function to open the resume PDF in a new tab
+        function openResume() {
+            window.open(resumePath, '_blank');
+        }
+
+        // Attach the click event to the button
+        document.getElementById('resumeButton').addEventListener('click', openResume);
+    </script>
+      
     </div>
 
   </div>

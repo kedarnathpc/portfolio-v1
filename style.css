@@ -102,3 +102,8 @@ body {
   margin-top: 0px;
   font-size: 25px;
 }
+
+.section-divider {
+  margin: 20px 0; /* Adjust margin for spacing above and below the horizontal rule */
+  border: 1px solid #bebaba; /* Grey color for the horizontal rule */
+}
