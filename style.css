@@ -88,22 +88,44 @@ body {
     border-radius: 5px;
   }
 
-/* Existing styles */
-
 .about-section {
-  margin-top: 20px; /* Adjust the margin to create space between the box below the description section and the about section */
-  border: 2px solid black; /* Add border to the about section box */
-  padding: 20px; /* Add padding for better appearance */
-  text-align: left; /* Align text to the left */
+  margin-top: 20px; 
+  border: 2px solid black; 
+  padding: 20px; 
+  text-align: left; 
 }
 
 .about-section h2 {
-  /* margin-bottom: ; Add margin to the bottom of the title */
   margin-top: 0px;
   font-size: 25px;
 }
 
 .section-divider {
-  margin: 20px 0; /* Adjust margin for spacing above and below the horizontal rule */
-  border: 1px solid #bebaba; /* Grey color for the horizontal rule */
+  margin: 20px 0; 
+  border: 1px solid #bebaba; 
+}
+
+.project-section {
+  margin-top: 20px; 
+  border: 2px solid black; 
+  padding: 20px; 
+  text-align: left; 
+}
+
+.project-section h2 {
+  margin-top: 0px;
+  font-size: 25px;
+}
+
+.external-links {
+  font-size: 15px;
+  padding: 4px;
+  margin: 5px;
+  border: 1px solid #4d4c4c;
+  border-radius: 5px;
+  background-color: white;
+  text-align: center;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
 }
